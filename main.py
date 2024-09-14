@@ -16,7 +16,6 @@ def processCommand(c):
         webbrowser.open("https://google.com")
     elif "schedule" in c.lower():
         speak("Meeting with Marko at 7:00 pm")
-        speak("And date with Arush! Don't forget to bring a gift; it's his birthday!")
     elif "time" in c:
         current_time = datetime.now().strftime("%I:%M %p")
         speak(f"The current time is {current_time}")
